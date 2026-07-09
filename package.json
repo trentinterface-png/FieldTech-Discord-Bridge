@@ -1,0 +1,17 @@
+{
+  "name": "fieldtech-discord-bridge",
+  "version": "2.1.0",
+  "description": "FieldTech Discord bridge with Bloom/Pterodactyl console watcher",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
